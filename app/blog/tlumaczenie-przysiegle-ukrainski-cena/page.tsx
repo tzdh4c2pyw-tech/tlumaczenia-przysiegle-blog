@@ -9,6 +9,50 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <main className="bg-white text-slate-950">
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Ile kosztuje tłumaczenie przysięgłe z języka ukraińskiego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Cena tłumaczenia przysięgłego z języka ukraińskiego zależy od liczby znaków, rodzaju dokumentu, jakości pliku, terminu wykonania oraz specjalistycznego charakteru tekstu."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy cena zależy od liczby stron dokumentu?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Cena nie zależy wyłącznie od liczby stron widocznych w pliku. W tłumaczeniach przysięgłych znaczenie ma przede wszystkim objętość tekstu liczona według strony rozliczeniowej."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy można wysłać PDF albo zdjęcie do wyceny?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tak. Do wyceny można przesłać PDF, skan, zdjęcie, Word albo Excel. Plik powinien być kompletny i czytelny."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy tryb pilny wpływa na cenę tłumaczenia?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tryb pilny może wpływać na cenę, szczególnie przy dokumentach wielostronicowych, specjalistycznych albo wymagających szybkiej realizacji."
+                }
+              }
+            ]
+          }),
+        }}
+      />
       <article>
         <section className="border-b bg-slate-50">
           <div className="mx-auto max-w-4xl px-6 py-16">

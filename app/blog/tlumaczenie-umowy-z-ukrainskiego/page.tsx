@@ -9,6 +9,50 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <main className="bg-white text-slate-950">
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Czy umowa z Ukrainy wymaga tłumaczenia przysięgłego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Jeżeli umowa z Ukrainy ma zostać złożona w sądzie, urzędzie, banku, kancelarii notarialnej albo innej instytucji, często wymagane jest tłumaczenie przysięgłe."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Jakie umowy można tłumaczyć z języka ukraińskiego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tłumaczenie może obejmować umowy sprzedaży, najmu, współpracy, pracy, zlecenia, pożyczki, spółki, aneksy i kontrakty gospodarcze."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy do wyceny trzeba wysłać całą umowę?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Do rzetelnej wyceny najlepiej przesłać całą umowę wraz z załącznikami, aneksami i tabelami, jeżeli mają być tłumaczone."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Od czego zależy cena tłumaczenia umowy z ukraińskiego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Cena zależy od liczby znaków, długości umowy, liczby załączników, jakości pliku, terminu wykonania i specjalistycznego charakteru treści."
+                }
+              }
+            ]
+          }),
+        }}
+      />
       <article>
         <section className="border-b bg-slate-50">
           <div className="mx-auto max-w-4xl px-6 py-16">

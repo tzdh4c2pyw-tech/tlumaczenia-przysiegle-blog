@@ -24,7 +24,7 @@ export default function Header() {
           </a>
 
           <a
-            href="https://tlumaczrosyjskiegoiukrainskiego.pl"
+            href="/wycena"
             className="rounded-lg bg-blue-700 px-4 py-2 text-white hover:bg-blue-800"
           >
             Wycena

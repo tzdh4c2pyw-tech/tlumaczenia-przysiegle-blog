@@ -19,6 +19,10 @@ export default function Header() {
             Cennik
           </a>
 
+          <a href="/blog" className="hover:text-blue-700">
+            Blog
+          </a>
+
           <a href="/miasta/krakow" className="hover:text-blue-700">
             Kraków
           </a>

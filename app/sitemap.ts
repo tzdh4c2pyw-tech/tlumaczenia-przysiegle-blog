@@ -9,6 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/tlumaczenia-prawnicze",
     "/cennik",
     "/wycena",
+    "/blog",
+    "/blog/tlumaczenie-przysiegle-ukrainski-cena",
     "/miasta/krakow",
     "/miasta/warszawa",
     "/miasta/wroclaw",

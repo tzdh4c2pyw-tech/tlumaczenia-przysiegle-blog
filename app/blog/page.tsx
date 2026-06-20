@@ -43,6 +43,12 @@ const posts = [
       "Kiedy umowa z Ukrainy wymaga tłumaczenia przysięgłego, jak przesłać dokument do wyceny i od czego zależy cena?",
     href: "/blog/tlumaczenie-umowy-z-ukrainskiego",
   },
+  {
+    title: "Tłumaczenie dyplomu z ukraińskiego — kiedy przysięgłe?",
+    description:
+      "Kiedy dyplom z Ukrainy wymaga tłumaczenia przysięgłego, jak wysłać dokument do wyceny i od czego zależy cena?",
+    href: "/blog/tlumaczenie-dyplomu-z-ukrainskiego",
+  },
 ];
 
 export default function BlogPage() {

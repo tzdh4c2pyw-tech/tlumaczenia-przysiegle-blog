@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog/tlumaczenie-dokumentow-do-karty-pobytu",
     "/blog/tlumaczenie-pelnomocnictwa-z-ukrainskiego",
     "/blog/tlumaczenie-wyroku-z-ukrainskiego",
+    "/blog/tlumaczenie-umowy-z-ukrainskiego",
     "/miasta/krakow",
     "/miasta/warszawa",
     "/miasta/wroclaw",

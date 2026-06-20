@@ -37,6 +37,12 @@ const posts = [
       "Kiedy wyrok sądu z Ukrainy wymaga tłumaczenia przysięgłego, jak wysłać go do wyceny i od czego zależy cena?",
     href: "/blog/tlumaczenie-wyroku-z-ukrainskiego",
   },
+  {
+    title: "Tłumaczenie umowy z ukraińskiego — prawnicze i przysięgłe",
+    description:
+      "Kiedy umowa z Ukrainy wymaga tłumaczenia przysięgłego, jak przesłać dokument do wyceny i od czego zależy cena?",
+    href: "/blog/tlumaczenie-umowy-z-ukrainskiego",
+  },
 ];
 
 export default function BlogPage() {

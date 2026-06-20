@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/wycena",
     "/blog",
     "/blog/tlumaczenie-przysiegle-ukrainski-cena",
+    "/blog/tlumaczenie-aktu-urodzenia-z-ukrainskiego",
     "/miasta/krakow",
     "/miasta/warszawa",
     "/miasta/wroclaw",

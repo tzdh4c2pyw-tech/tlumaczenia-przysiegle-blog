@@ -13,6 +13,12 @@ const posts = [
       "Jak oblicza się cenę tłumaczenia przysięgłego z języka ukraińskiego? Strona rozliczeniowa, liczba znaków, tryb pilny i pliki PDF.",
     href: "/blog/tlumaczenie-przysiegle-ukrainski-cena",
   },
+  {
+    title: "Tłumaczenie aktu urodzenia z ukraińskiego — kiedy potrzebne?",
+    description:
+      "Kiedy akt urodzenia z Ukrainy wymaga tłumaczenia przysięgłego, jak wysłać dokument do wyceny i od czego zależy cena?",
+    href: "/blog/tlumaczenie-aktu-urodzenia-z-ukrainskiego",
+  },
 ];
 
 export default function BlogPage() {

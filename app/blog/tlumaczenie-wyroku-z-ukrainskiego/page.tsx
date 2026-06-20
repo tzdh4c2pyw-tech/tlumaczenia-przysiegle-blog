@@ -9,6 +9,50 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <main className="bg-white text-slate-950">
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Czy wyrok sądu z Ukrainy wymaga tłumaczenia przysięgłego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Jeżeli wyrok sądu z Ukrainy ma zostać użyty w Polsce przed sądem, urzędem, bankiem, notariuszem albo inną instytucją, najczęściej wymagane jest tłumaczenie przysięgłe."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy trzeba tłumaczyć cały wyrok?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Do wyceny najlepiej przesłać cały dokument. Jeżeli wyrok zawiera uzasadnienie, załączniki, pieczęcie, podpisy albo adnotacje, również powinny być widoczne."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy do wyceny wystarczy skan albo PDF wyroku?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tak. Do wstępnej wyceny można przesłać czytelny skan, PDF albo zdjęcia wszystkich stron dokumentu."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Od czego zależy cena tłumaczenia wyroku z ukraińskiego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Cena zależy od liczby znaków, liczby stron, jakości pliku, rodzaju sprawy, obecności uzasadnienia, terminu wykonania oraz specjalistycznej terminologii."
+                }
+              }
+            ]
+          }),
+        }}
+      />
       <article>
         <section className="border-b bg-slate-50">
           <div className="mx-auto max-w-4xl px-6 py-16">

@@ -9,6 +9,50 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <main className="bg-white text-slate-950">
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Czy świadectwo z Ukrainy wymaga tłumaczenia przysięgłego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Jeżeli świadectwo z Ukrainy ma zostać złożone w polskiej szkole, uczelni, urzędzie albo innej instytucji, najczęściej wymagane jest tłumaczenie przysięgłe na język polski."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy trzeba tłumaczyć wszystkie strony świadectwa?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Do wyceny najlepiej przesłać wszystkie strony świadectwa, w tym strony z ocenami, pieczęciami, podpisami, adnotacjami i załącznikami."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy do wyceny wystarczy zdjęcie świadectwa?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tak. Do wstępnej wyceny wystarczy czytelne zdjęcie, skan albo PDF. Plik powinien obejmować cały dokument i nie może ucinać treści, pieczęci ani podpisów."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Od czego zależy cena tłumaczenia świadectwa z ukraińskiego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Cena zależy od objętości dokumentu, liczby znaków, liczby stron, tabel z ocenami, jakości pliku, terminu wykonania i układu dokumentu."
+                }
+              }
+            ]
+          }),
+        }}
+      />
       <article>
         <section className="border-b bg-slate-50">
           <div className="mx-auto max-w-4xl px-6 py-16">

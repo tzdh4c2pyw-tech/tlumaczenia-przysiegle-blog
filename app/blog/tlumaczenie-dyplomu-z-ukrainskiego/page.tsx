@@ -9,6 +9,50 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <main className="bg-white text-slate-950">
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Czy dyplom z Ukrainy wymaga tłumaczenia przysięgłego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Jeżeli dyplom z Ukrainy ma zostać złożony w polskiej uczelni, urzędzie, szkole, u pracodawcy albo w postępowaniu administracyjnym, najczęściej wymagane jest tłumaczenie przysięgłe."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy trzeba tłumaczyć suplement albo załącznik do dyplomu?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Jeżeli suplement, załącznik albo wykaz ocen ma zostać złożony razem z dyplomem, również powinien zostać przesłany do wyceny i ewentualnego tłumaczenia."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy do wyceny wystarczy skan dyplomu?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tak. Do wstępnej wyceny wystarczy czytelny skan, PDF albo zdjęcie dyplomu. Dokument powinien być kompletny i zawierać wszystkie strony, pieczęcie, podpisy oraz załączniki."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Od czego zależy cena tłumaczenia dyplomu z ukraińskiego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Cena zależy od objętości dokumentu, liczby znaków, obecności suplementu, wykazu ocen, jakości pliku, terminu wykonania oraz układu dokumentu."
+                }
+              }
+            ]
+          }),
+        }}
+      />
       <article>
         <section className="border-b bg-slate-50">
           <div className="mx-auto max-w-4xl px-6 py-16">

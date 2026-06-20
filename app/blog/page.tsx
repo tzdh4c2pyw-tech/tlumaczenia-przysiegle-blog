@@ -25,6 +25,12 @@ const posts = [
       "Jakie dokumenty do karty pobytu mogą wymagać tłumaczenia przysięgłego i jak wysłać je do wyceny?",
     href: "/blog/tlumaczenie-dokumentow-do-karty-pobytu",
   },
+  {
+    title: "Tłumaczenie pełnomocnictwa z ukraińskiego — kiedy przysięgłe?",
+    description:
+      "Kiedy pełnomocnictwo z Ukrainy wymaga tłumaczenia przysięgłego, jak przygotować plik do wyceny i od czego zależy cena?",
+    href: "/blog/tlumaczenie-pelnomocnictwa-z-ukrainskiego",
+  },
 ];
 
 export default function BlogPage() {

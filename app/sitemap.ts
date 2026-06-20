@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog/tlumaczenie-przysiegle-ukrainski-cena",
     "/blog/tlumaczenie-aktu-urodzenia-z-ukrainskiego",
     "/blog/tlumaczenie-dokumentow-do-karty-pobytu",
+    "/blog/tlumaczenie-pelnomocnictwa-z-ukrainskiego",
     "/miasta/krakow",
     "/miasta/warszawa",
     "/miasta/wroclaw",

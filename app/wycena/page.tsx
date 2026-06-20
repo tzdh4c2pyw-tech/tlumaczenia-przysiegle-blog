@@ -9,6 +9,41 @@ export const metadata: Metadata = {
 export default function WycenaPage() {
   return (
     <main className="bg-white text-slate-950">
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ProfessionalService",
+            name: "Wycena tłumaczenia przysięgłego języka ukraińskiego",
+            description:
+              "Wycena tłumaczeń przysięgłych języka ukraińskiego dokumentów urzędowych, sądowych, prawniczych, medycznych, technicznych i firmowych.",
+            url: "https://tlumaczenia-przysiegle-blog.vercel.app/wycena",
+            areaServed: [
+              "Kraków",
+              "Warszawa",
+              "Wrocław",
+              "Poznań",
+              "Gdańsk",
+              "Katowice",
+              "Polska"
+            ],
+            serviceType: [
+              "tłumaczenia przysięgłe języka ukraińskiego",
+              "tłumaczenia prawnicze",
+              "tłumaczenia sądowe",
+              "tłumaczenia dokumentów urzędowych",
+              "wycena tłumaczenia"
+            ],
+            provider: {
+              "@type": "Person",
+              name: "Vadym Rekel",
+              jobTitle: "Tłumacz przysięgły języka ukraińskiego"
+            }
+          }),
+        }}
+      />
       <section className="border-b bg-slate-50">
         <div className="mx-auto max-w-6xl px-6 py-16">
           <p className="mb-4 text-sm font-semibold uppercase tracking-wide text-blue-700">

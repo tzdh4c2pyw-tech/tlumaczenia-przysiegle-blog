@@ -9,6 +9,50 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <main className="bg-white text-slate-950">
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Czy akt urodzenia z Ukrainy wymaga tłumaczenia przysięgłego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Jeżeli akt urodzenia z Ukrainy ma zostać złożony w polskim urzędzie, sądzie, uczelni, banku albo innej instytucji, najczęściej wymagane jest tłumaczenie przysięgłe."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy do wyceny wystarczy zdjęcie aktu urodzenia?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Do wstępnej wyceny zwykle wystarczy czytelne zdjęcie albo skan aktu urodzenia. Dokument powinien być kompletny, nieucięty i dobrze widoczny."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy trzeba tłumaczyć odwrotną stronę aktu urodzenia?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Jeżeli odwrotna strona dokumentu zawiera treść, pieczęcie, adnotacje albo inne informacje, również powinna zostać przesłana do wyceny."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Ile kosztuje tłumaczenie aktu urodzenia z ukraińskiego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Cena zależy od objętości dokumentu, liczby znaków, jakości pliku, terminu wykonania oraz ewentualnych adnotacji lub dodatkowych wpisów."
+                }
+              }
+            ]
+          }),
+        }}
+      />
       <article>
         <section className="border-b bg-slate-50">
           <div className="mx-auto max-w-4xl px-6 py-16">

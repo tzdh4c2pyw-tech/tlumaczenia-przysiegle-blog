@@ -15,6 +15,30 @@ export default function WycenaPage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Strona główna",
+                item: "https://tlumaczenia-przysiegle-blog.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Wycena tłumaczenia przysięgłego",
+                item: "https://tlumaczenia-przysiegle-blog.vercel.app/wycena"
+              }
+            ]
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "ProfessionalService",
             name: "Wycena tłumaczenia przysięgłego języka ukraińskiego",
             description:

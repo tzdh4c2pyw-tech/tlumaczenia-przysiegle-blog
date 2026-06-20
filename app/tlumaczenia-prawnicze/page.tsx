@@ -9,6 +9,30 @@ export const metadata: Metadata = {
 export default function TlumaczeniaPrawniczePage() {
   return (
     <main className="bg-white text-slate-950">
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Strona główna",
+                item: "https://tlumaczenia-przysiegle-blog.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Tłumaczenia prawnicze języka ukraińskiego",
+                item: "https://tlumaczenia-przysiegle-blog.vercel.app/tlumaczenia-prawnicze"
+              }
+            ]
+          }),
+        }}
+      />
       <section className="border-b bg-slate-50">
         <div className="mx-auto max-w-6xl px-6 py-16">
           <p className="mb-4 text-sm font-semibold uppercase tracking-wide text-blue-700">

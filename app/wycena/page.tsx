@@ -44,6 +44,58 @@ export default function WycenaPage() {
           }),
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Jak wysłać dokument do wyceny tłumaczenia przysięgłego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Do wyceny można przesłać skan, zdjęcie, PDF, Word albo Excel. Dokument powinien być kompletny, czytelny i zawierać wszystkie strony, pieczęcie, podpisy oraz załączniki."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Od czego zależy cena tłumaczenia przysięgłego języka ukraińskiego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Cena zależy od liczby znaków, rodzaju dokumentu, jakości pliku, terminu wykonania oraz specjalistycznego charakteru tekstu."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy można wysłać zdjęcie dokumentu do wyceny?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tak. Do wstępnej wyceny można przesłać czytelne zdjęcie dokumentu. Zdjęcie powinno obejmować cały dokument i nie może ucinać treści, pieczęci ani podpisów."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy można wycenić kilka dokumentów jednocześnie?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tak. Można przesłać kilka dokumentów jednocześnie, aby otrzymać zbiorczą informację o cenie, terminie i możliwej formie realizacji tłumaczenia."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy tłumaczenie przysięgłe może być wykonane pilnie?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tryb pilny jest często możliwy, ale zależy od objętości dokumentu, jakości pliku, specjalistyczności tekstu i aktualnego obłożenia."
+                }
+              }
+            ]
+          }),
+        }}
+      />
+
       <section className="border-b bg-slate-50">
         <div className="mx-auto max-w-6xl px-6 py-16">
           <p className="mb-4 text-sm font-semibold uppercase tracking-wide text-blue-700">

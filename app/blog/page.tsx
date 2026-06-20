@@ -19,6 +19,12 @@ const posts = [
       "Kiedy akt urodzenia z Ukrainy wymaga tłumaczenia przysięgłego, jak wysłać dokument do wyceny i od czego zależy cena?",
     href: "/blog/tlumaczenie-aktu-urodzenia-z-ukrainskiego",
   },
+  {
+    title: "Tłumaczenie dokumentów do karty pobytu — ukraiński",
+    description:
+      "Jakie dokumenty do karty pobytu mogą wymagać tłumaczenia przysięgłego i jak wysłać je do wyceny?",
+    href: "/blog/tlumaczenie-dokumentow-do-karty-pobytu",
+  },
 ];
 
 export default function BlogPage() {

@@ -9,6 +9,50 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <main className="bg-white text-slate-950">
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Czy pełnomocnictwo z Ukrainy wymaga tłumaczenia przysięgłego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Jeżeli pełnomocnictwo z Ukrainy ma zostać użyte w Polsce przed sądem, urzędem, notariuszem, bankiem albo inną instytucją, najczęściej wymagane jest tłumaczenie przysięgłe."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Jakie pełnomocnictwa można tłumaczyć z języka ukraińskiego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tłumaczenie może obejmować pełnomocnictwa notarialne, procesowe, majątkowe, rodzinne, firmowe, urzędowe oraz pełnomocnictwa do reprezentacji."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy do wyceny wystarczy skan pełnomocnictwa?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tak. Do wstępnej wyceny wystarczy czytelny skan, zdjęcie albo PDF. Dokument powinien być kompletny, z widocznymi podpisami, pieczęciami i wszystkimi stronami."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Od czego zależy cena tłumaczenia pełnomocnictwa?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Cena zależy od długości dokumentu, liczby znaków, rodzaju pełnomocnictwa, jakości pliku, terminu wykonania oraz specjalistyczności treści."
+                }
+              }
+            ]
+          }),
+        }}
+      />
       <article>
         <section className="border-b bg-slate-50">
           <div className="mx-auto max-w-4xl px-6 py-16">

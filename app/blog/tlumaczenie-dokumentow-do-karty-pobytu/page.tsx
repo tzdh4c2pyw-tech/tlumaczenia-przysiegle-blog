@@ -15,6 +15,32 @@ export default function ArticlePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            headline: "Tłumaczenie dokumentów do karty pobytu",
+            description: "Poradnik dotyczący tłumaczeń przysięgłych dokumentów z Ukrainy do procedury karty pobytu.",
+            url: "https://tlumaczenia-przysiegle-blog.vercel.app/blog/tlumaczenie-dokumentow-do-karty-pobytu",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://tlumaczenia-przysiegle-blog.vercel.app/blog/tlumaczenie-dokumentow-do-karty-pobytu"
+            },
+            author: {
+              "@type": "Person",
+              name: "Vadym Rekel"
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Tłumaczenia przysięgłe języka ukraińskiego"
+            },
+            inLanguage: "pl-PL"
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
               {

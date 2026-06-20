@@ -15,6 +15,32 @@ export default function ArticlePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            headline: "Tłumaczenie wyroku z języka ukraińskiego",
+            description: "Poradnik o tłumaczeniu przysięgłym wyroków sądowych z Ukrainy.",
+            url: "https://tlumaczenia-przysiegle-blog.vercel.app/blog/tlumaczenie-wyroku-z-ukrainskiego",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://tlumaczenia-przysiegle-blog.vercel.app/blog/tlumaczenie-wyroku-z-ukrainskiego"
+            },
+            author: {
+              "@type": "Person",
+              name: "Vadym Rekel"
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Tłumaczenia przysięgłe języka ukraińskiego"
+            },
+            inLanguage: "pl-PL"
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
               {

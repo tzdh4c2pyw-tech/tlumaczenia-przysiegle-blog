@@ -15,6 +15,32 @@ export default function ArticlePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            headline: "Ile kosztuje tłumaczenie przysięgłe z języka ukraińskiego?",
+            description: "Poradnik wyjaśniający, od czego zależy cena tłumaczenia przysięgłego z języka ukraińskiego.",
+            url: "https://tlumaczenia-przysiegle-blog.vercel.app/blog/tlumaczenie-przysiegle-ukrainski-cena",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://tlumaczenia-przysiegle-blog.vercel.app/blog/tlumaczenie-przysiegle-ukrainski-cena"
+            },
+            author: {
+              "@type": "Person",
+              name: "Vadym Rekel"
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Tłumaczenia przysięgłe języka ukraińskiego"
+            },
+            inLanguage: "pl-PL"
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
               {

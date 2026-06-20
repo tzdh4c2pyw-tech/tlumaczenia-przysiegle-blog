@@ -15,6 +15,32 @@ export default function ArticlePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            headline: "Tłumaczenie umowy z języka ukraińskiego",
+            description: "Poradnik o tłumaczeniu przysięgłym umów, kontraktów i aneksów z języka ukraińskiego.",
+            url: "https://tlumaczenia-przysiegle-blog.vercel.app/blog/tlumaczenie-umowy-z-ukrainskiego",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://tlumaczenia-przysiegle-blog.vercel.app/blog/tlumaczenie-umowy-z-ukrainskiego"
+            },
+            author: {
+              "@type": "Person",
+              name: "Vadym Rekel"
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Tłumaczenia przysięgłe języka ukraińskiego"
+            },
+            inLanguage: "pl-PL"
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
               {

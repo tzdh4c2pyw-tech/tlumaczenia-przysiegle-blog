@@ -15,6 +15,36 @@ export default function ArticlePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Strona główna",
+                item: "https://tlumaczenia-przysiegle-blog.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Blog",
+                item: "https://tlumaczenia-przysiegle-blog.vercel.app/blog"
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Tłumaczenie wyroku z ukraińskiego",
+                item: "https://tlumaczenia-przysiegle-blog.vercel.app/blog/tlumaczenie-wyroku-z-ukrainskiego"
+              }
+            ]
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "BlogPosting",
             headline: "Tłumaczenie wyroku z języka ukraińskiego",
             description: "Poradnik o tłumaczeniu przysięgłym wyroków sądowych z Ukrainy.",

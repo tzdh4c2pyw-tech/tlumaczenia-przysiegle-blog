@@ -15,6 +15,36 @@ export default function ArticlePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Strona główna",
+                item: "https://tlumaczenia-przysiegle-blog.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Blog",
+                item: "https://tlumaczenia-przysiegle-blog.vercel.app/blog"
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Tłumaczenie dyplomu z ukraińskiego",
+                item: "https://tlumaczenia-przysiegle-blog.vercel.app/blog/tlumaczenie-dyplomu-z-ukrainskiego"
+              }
+            ]
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "BlogPosting",
             headline: "Tłumaczenie dyplomu z języka ukraińskiego",
             description: "Poradnik o tłumaczeniu przysięgłym dyplomu, suplementu i dokumentów edukacyjnych z Ukrainy.",

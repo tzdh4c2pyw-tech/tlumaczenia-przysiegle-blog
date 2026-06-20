@@ -9,6 +9,50 @@ export const metadata: Metadata = {
 export default function ArticlePage() {
   return (
     <main className="bg-white text-slate-950">
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Czy dokumenty do karty pobytu wymagają tłumaczenia przysięgłego?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Jeżeli dokumenty zostały wydane w języku ukraińskim i mają zostać złożone w polskim urzędzie, najczęściej wymagane jest tłumaczenie przysięgłe na język polski."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Jakie dokumenty do karty pobytu mogą wymagać tłumaczenia?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tłumaczenia mogą wymagać akty stanu cywilnego, zaświadczenia, dokumenty rodzinne, dokumenty edukacyjne, zawodowe, urzędowe oraz inne dokumenty wydane w Ukrainie."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy można wysłać kilka dokumentów do jednej wyceny?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tak. Można przesłać cały komplet dokumentów do jednej zbiorczej wyceny. Pozwala to określić łączny koszt i termin realizacji tłumaczenia."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Czy do wyceny wystarczy skan albo zdjęcie dokumentu?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Tak. Do wstępnej wyceny wystarczy czytelny skan, zdjęcie albo plik PDF. Dokument powinien być kompletny, z widocznymi pieczęciami, podpisami i wszystkimi stronami."
+                }
+              }
+            ]
+          }),
+        }}
+      />
       <article>
         <section className="border-b bg-slate-50">
           <div className="mx-auto max-w-4xl px-6 py-16">

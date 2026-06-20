@@ -67,6 +67,30 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-6xl px-6 py-16">
+        <h2 className="text-3xl font-bold">
+          Tłumaczenia według rodzaju dokumentu
+        </h2>
+
+        <div className="mt-8 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border p-5">
+            Tłumaczenie aktu urodzenia z języka ukraińskiego
+          </div>
+
+          <div className="rounded-xl border p-5">
+            Tłumaczenie aktu małżeństwa z Ukrainy
+          </div>
+
+          <div className="rounded-xl border p-5">
+            Tłumaczenie wyroku, postanowienia albo pisma sądowego
+          </div>
+
+          <div className="rounded-xl border p-5">
+            Tłumaczenie dokumentacji medycznej, technicznej i firmowej
+          </div>
+        </div>
+      </section>
+
       <section className="bg-blue-700 text-white">
         <div className="mx-auto max-w-6xl px-6 py-16">
           <h2 className="max-w-3xl text-3xl font-bold">

@@ -4,32 +4,36 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tlumaczenia-przysiegle-blog.vercel.app"),
   title: {
-    default: "Tłumaczenia przysięgłe ukraiński — poradnik, ceny, dokumenty",
+    default: "Tłumaczenia przysięgłe ukraiński | Dokumenty, sąd, urząd",
     template: "%s | Tłumaczenia przysięgłe ukraiński",
   },
   description:
-    "Ekspercki blog o tłumaczeniach przysięgłych języka ukraińskiego: ceny, dokumenty, akty stanu cywilnego, pisma sądowe, tłumaczenia prawnicze i wycena.",
-  metadataBase: new URL("https://tlumaczenia-przysiegle-blog.vercel.app"),
+    "Tłumaczenia przysięgłe języka ukraińskiego dokumentów urzędowych, sądowych, prawniczych, edukacyjnych i firmowych. Wycena online.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Tłumaczenia przysięgłe ukraiński — poradnik i ceny",
+    title: "Tłumaczenia przysięgłe języka ukraińskiego",
     description:
-      "Centrum wiedzy o tłumaczeniach przysięgłych, prawniczych i specjalistycznych języka ukraińskiego.",
+      "Tłumaczenia przysięgłe i prawnicze języka ukraińskiego dla urzędów, sądów, firm i osób prywatnych.",
     url: "https://tlumaczenia-przysiegle-blog.vercel.app",
     siteName: "Tłumaczenia przysięgłe ukraiński",
     locale: "pl_PL",
     type: "website",
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="pl">
       <body>

@@ -168,6 +168,83 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-6xl px-6 py-16">
+        <p className="mb-4 text-sm font-semibold uppercase tracking-wide text-blue-700">
+          Popularne poradniki
+        </p>
+
+        <h2 className="max-w-3xl text-3xl font-bold">
+          Najczęściej czytane poradniki o tłumaczeniach z języka ukraińskiego
+        </h2>
+
+        <p className="mt-4 max-w-3xl leading-8 text-slate-700">
+          Sprawdź praktyczne informacje o cenach, dokumentach, tłumaczeniach
+          przysięgłych, prawniczych, sądowych i edukacyjnych.
+        </p>
+
+        <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <a href="/blog/tlumaczenie-przysiegle-ukrainski-cena" className="rounded-2xl border bg-white p-6 hover:shadow-md">
+            <h3 className="text-xl font-bold">
+              Tłumaczenie przysięgłe ukraiński — cena
+            </h3>
+            <p className="mt-3 text-slate-700">
+              Strona rozliczeniowa, liczba znaków, PDF, skan, Word, Excel i tryb pilny.
+            </p>
+          </a>
+
+          <a href="/blog/tlumaczenie-aktu-urodzenia-z-ukrainskiego" className="rounded-2xl border bg-white p-6 hover:shadow-md">
+            <h3 className="text-xl font-bold">
+              Tłumaczenie aktu urodzenia z ukraińskiego
+            </h3>
+            <p className="mt-3 text-slate-700">
+              Kiedy potrzebne jest tłumaczenie przysięgłe aktu urodzenia z Ukrainy.
+            </p>
+          </a>
+
+          <a href="/blog/tlumaczenie-dokumentow-do-karty-pobytu" className="rounded-2xl border bg-white p-6 hover:shadow-md">
+            <h3 className="text-xl font-bold">
+              Tłumaczenie dokumentów do karty pobytu
+            </h3>
+            <p className="mt-3 text-slate-700">
+              Jakie dokumenty mogą wymagać tłumaczenia przysięgłego.
+            </p>
+          </a>
+
+          <a href="/blog/tlumaczenie-pelnomocnictwa-z-ukrainskiego" className="rounded-2xl border bg-white p-6 hover:shadow-md">
+            <h3 className="text-xl font-bold">
+              Tłumaczenie pełnomocnictwa z ukraińskiego
+            </h3>
+            <p className="mt-3 text-slate-700">
+              Pełnomocnictwa notarialne, urzędowe, sądowe i firmowe.
+            </p>
+          </a>
+
+          <a href="/blog/tlumaczenie-wyroku-z-ukrainskiego" className="rounded-2xl border bg-white p-6 hover:shadow-md">
+            <h3 className="text-xl font-bold">
+              Tłumaczenie wyroku z ukraińskiego
+            </h3>
+            <p className="mt-3 text-slate-700">
+              Tłumaczenia sądowe, wyroki, postanowienia i uzasadnienia.
+            </p>
+          </a>
+
+          <a href="/blog/tlumaczenie-dyplomu-z-ukrainskiego" className="rounded-2xl border bg-white p-6 hover:shadow-md">
+            <h3 className="text-xl font-bold">
+              Tłumaczenie dyplomu z ukraińskiego
+            </h3>
+            <p className="mt-3 text-slate-700">
+              Dyplomy, suplementy, uczelnie, nostryfikacja i rekrutacja.
+            </p>
+          </a>
+        </div>
+
+        <div className="mt-8">
+          <a href="/blog" className="inline-block rounded-xl bg-blue-700 px-6 py-4 font-semibold text-white hover:bg-blue-800">
+            Zobacz wszystkie poradniki
+          </a>
+        </div>
+      </section>
+
       <section className="bg-blue-700 text-white">
         <div className="mx-auto max-w-6xl px-6 py-16">
           <h2 className="max-w-3xl text-3xl font-bold">

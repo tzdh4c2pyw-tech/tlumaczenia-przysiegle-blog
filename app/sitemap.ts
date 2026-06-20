@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog/tlumaczenie-wyroku-z-ukrainskiego",
     "/blog/tlumaczenie-umowy-z-ukrainskiego",
     "/blog/tlumaczenie-dyplomu-z-ukrainskiego",
+    "/blog/tlumaczenie-swiadectwa-z-ukrainskiego",
     "/miasta/krakow",
     "/miasta/warszawa",
     "/miasta/wroclaw",

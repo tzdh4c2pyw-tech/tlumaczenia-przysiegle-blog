@@ -26,7 +26,7 @@ export default function WarszawaPage() {
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-            <a href="https://tlumaczrosyjskiegoiukrainskiego.pl" className="rounded-xl bg-blue-700 px-6 py-4 text-center font-semibold text-white hover:bg-blue-800">
+            <a href="/wycena" className="rounded-xl bg-blue-700 px-6 py-4 text-center font-semibold text-white hover:bg-blue-800">
               Wyślij dokument do wyceny
             </a>
 
@@ -81,7 +81,7 @@ export default function WarszawaPage() {
             a otrzymasz konkretną informację o cenie i terminie.
           </p>
 
-          <a href="https://tlumaczrosyjskiegoiukrainskiego.pl" className="mt-8 inline-block rounded-xl bg-white px-6 py-4 font-semibold text-blue-700 hover:bg-blue-50">
+          <a href="/wycena" className="mt-8 inline-block rounded-xl bg-white px-6 py-4 font-semibold text-blue-700 hover:bg-blue-50">
             Wyślij dokument do wyceny
           </a>
         </div>

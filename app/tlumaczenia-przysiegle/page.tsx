@@ -27,7 +27,7 @@ export default function TlumaczeniaPrzysieglePage() {
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <a
-              href="https://tlumaczrosyjskiegoiukrainskiego.pl"
+              href="/wycena"
               className="rounded-xl bg-blue-700 px-6 py-4 text-center font-semibold text-white hover:bg-blue-800"
             >
               Wyślij dokument do wyceny
@@ -113,7 +113,7 @@ export default function TlumaczeniaPrzysieglePage() {
           </div>
 
           <a
-            href="https://tlumaczrosyjskiegoiukrainskiego.pl"
+            href="/wycena"
             className="mt-8 inline-block rounded-xl bg-blue-700 px-6 py-4 font-semibold text-white hover:bg-blue-800"
           >
             Wyślij dokument do bezpłatnej wyceny

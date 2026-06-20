@@ -31,6 +31,12 @@ const posts = [
       "Kiedy pełnomocnictwo z Ukrainy wymaga tłumaczenia przysięgłego, jak przygotować plik do wyceny i od czego zależy cena?",
     href: "/blog/tlumaczenie-pelnomocnictwa-z-ukrainskiego",
   },
+  {
+    title: "Tłumaczenie wyroku z ukraińskiego — kiedy przysięgłe?",
+    description:
+      "Kiedy wyrok sądu z Ukrainy wymaga tłumaczenia przysięgłego, jak wysłać go do wyceny i od czego zależy cena?",
+    href: "/blog/tlumaczenie-wyroku-z-ukrainskiego",
+  },
 ];
 
 export default function BlogPage() {

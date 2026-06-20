@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/blog/tlumaczenie-aktu-urodzenia-z-ukrainskiego",
     "/blog/tlumaczenie-dokumentow-do-karty-pobytu",
     "/blog/tlumaczenie-pelnomocnictwa-z-ukrainskiego",
+    "/blog/tlumaczenie-wyroku-z-ukrainskiego",
     "/miasta/krakow",
     "/miasta/warszawa",
     "/miasta/wroclaw",
